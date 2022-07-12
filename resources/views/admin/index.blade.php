@@ -17,7 +17,7 @@
 
 <!-- css -->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
- 
+
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
 <!--=================================
  preloader -->
- 
+
 <div id="pre-loader">
     <img src="images/pre-loader/loader-01.svg" alt="">
 </div>
@@ -37,12 +37,12 @@
 
 <!--=================================
  header start-->
- 
+
 <nav class="admin-header navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <!-- logo -->
   <div class="text-left navbar-brand-wrapper">
-    <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo-dark.png" alt="" ></a>
-    <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-icon-dark.png" alt=""></a>
+    <a class="navbar-brand brand-logo" href="index.blade.php"><img src="images/logo-dark.png" alt="" ></a>
+    <a class="navbar-brand brand-logo-mini" href="index.blade.php"><img src="images/logo-icon-dark.png" alt=""></a>
   </div>
   <!-- Top bar left -->
   <ul class="nav navbar-nav mr-auto">
@@ -88,7 +88,7 @@
         <div class="dropdown-header">
           <strong>Quick Links</strong>
         </div>
-        <div class="dropdown-divider"></div> 
+        <div class="dropdown-divider"></div>
         <div class="nav-grid">
           <a href="#" class="nav-grid-item"><i class="ti-files text-primary"></i><h5>New Task</h5></a>
           <a href="#" class="nav-grid-item"><i class="ti-check-box text-success"></i><h5>Assign Task</h5></a>
@@ -130,7 +130,7 @@
 
 <!--=================================
  Main content -->
- 
+
 <div class="container-fluid">
   <div class="row">
     <!-- Left Sidebar start-->
@@ -144,7 +144,7 @@
             <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
           </a>
           <ul id="dashboard" class="collapse" data-parent="#sidebarnav">
-            <li> <a href="index.html">Dashboard 01</a> </li>
+            <li> <a href="index.blade.php">Dashboard 01</a> </li>
             <li> <a href="index-02.html">Dashboard 02</a> </li>
             <li> <a href="index-03.html">Dashboard 03</a> </li>
             <li> <a href="index-04.html">Dashboard 04</a> </li>
@@ -197,8 +197,8 @@
           <a href="todo-list.html"><i class="ti-menu-alt"></i><span class="right-nav-text">Todo list</span> </a>
         </li>
          <!-- menu item chat-->
-         <li> 
-           <a href="chat-page.html"><i class="ti-comments"></i><span class="right-nav-text">Chat </span></a>  
+         <li>
+           <a href="chat-page.html"><i class="ti-comments"></i><span class="right-nav-text">Chat </span></a>
          </li>
          <!-- menu item mailbox-->
         <li>
@@ -216,7 +216,7 @@
             <li> <a href="chart-sparkline.html">Chart Sparkline</a> </li>
           </ul>
         </li>
-        
+
         <!-- menu font icon-->
          <li>
           <a href="javascript:void(0);" data-toggle="collapse" data-target="#font-icon">
@@ -292,7 +292,7 @@
             <div class="pull-right"><i class="ti-plus"></i></div><div class="clearfix"></div>
           </a>
           <ul id="authentication" class="collapse" data-parent="#sidebarnav">
-            <li> <a href="login.html">login</a> </li>
+            <li> <a href="login.blade.php">login</a> </li>
             <li> <a href="register.html">register</a> </li>
             <li> <a href="lockscreen.html">Lock screen</a> </li>
           </ul>
@@ -337,8 +337,8 @@
         </ul>
       </li>
     </ul>
-  </div> 
-</div> 
+  </div>
+</div>
 
 <!-- Left Sidebar End-->
 
@@ -353,7 +353,7 @@ wrapper -->
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb pt-0 pr-0 float-left float-sm-right">
-              <li class="breadcrumb-item"><a href="index.html" class="default-color">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.blade.php" class="default-color">Home</a></li>
               <li class="breadcrumb-item active">Dashboard</li>
             </ol>
           </div>
@@ -416,7 +416,7 @@ wrapper -->
                 </div>
               </div>
               <p class="text-muted pt-3 mb-0 mt-2 border-top">
-                <i class="fa fa-calendar mr-1" aria-hidden="true"></i> Sales Per Week 
+                <i class="fa fa-calendar mr-1" aria-hidden="true"></i> Sales Per Week
               </p>
             </div>
           </div>
@@ -532,13 +532,13 @@ wrapper -->
                     <h4 class="mt-10 text-danger">3251</h4>
                   </div>
                </div>
-               <div class="chart-wrapper" style="width: 100%; margin: 0 auto;"> 
+               <div class="chart-wrapper" style="width: 100%; margin: 0 auto;">
                <div id="canvas-holder">
                   <canvas id="canvas3" width="550"></canvas>
               </div>
             </div>
-           </div> 
-         </div> 
+           </div>
+         </div>
         </div>
         <div class="col-xl-8 mb-30">
           <div class="card card-statistics h-100">
@@ -567,7 +567,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">Supercharge your motivation</h6>
-                              <p class="sm-mb-5 d-block">I truly believe Augustine’s words are true. </p> 
+                              <p class="sm-mb-5 d-block">I truly believe Augustine’s words are true. </p>
                               <span class="mb-0">by - <b class="text-info">PotenzaUser</b></span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -585,7 +585,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">Helen keller a teller seller</h6>
-                              <p class="sm-mb-5 d-block">We also know those epic stories, those modern.</p> 
+                              <p class="sm-mb-5 d-block">We also know those epic stories, those modern.</p>
                               <span class="mb-0">by - <b class="text-warning">WebminUser</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -603,7 +603,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">The other virtues practice</h6>
-                              <p class="sm-mb-5 d-block">One of the most difficult aspects of achieving. </p> 
+                              <p class="sm-mb-5 d-block">One of the most difficult aspects of achieving. </p>
                               <span class="mb-0">by - <b class="text-danger">TheCorps</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -621,7 +621,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">You will begin to realise</h6>
-                              <p class="sm-mb-5 d-block">Remind yourself you have nowhere to go except. </p> 
+                              <p class="sm-mb-5 d-block">Remind yourself you have nowhere to go except. </p>
                               <span class="mb-0">by - <b class="text-success">PGSinfotech</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -633,7 +633,7 @@ wrapper -->
                              <span>Revenue</span>
                            </div>
                           </div>
-                        </div> 
+                        </div>
                       <div class="tab-pane fade" id="year" role="tabpanel" aria-labelledby="year-tab">
                         <div class="row mb-30">
                            <div class="col-md-2 col-sm-6">
@@ -641,7 +641,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">Walk out 10 years into</h6>
-                              <p class="sm-mb-5 d-block">Understanding the price and having the willingness to pay. </p> 
+                              <p class="sm-mb-5 d-block">Understanding the price and having the willingness to pay. </p>
                               <span class="mb-0">by - <b class="text-danger">TheZayka</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -659,7 +659,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">Step out on to the path</h6>
-                              <p class="sm-mb-5 d-block">Success to you and then pull it out when you are.</p> 
+                              <p class="sm-mb-5 d-block">Success to you and then pull it out when you are.</p>
                               <span class="mb-0">by - <b class="text-info">CarDealer</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -677,7 +677,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">Briefly imagine that you</h6>
-                              <p class="sm-mb-5 d-block">Motivators for your personality and your personal goals. </p> 
+                              <p class="sm-mb-5 d-block">Motivators for your personality and your personal goals. </p>
                               <span class="mb-0">by - <b class="text-success">SamMartin</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -695,7 +695,7 @@ wrapper -->
                            </div>
                            <div class="col-md-6 col-sm-6">
                               <h6 class="mb-0 sm-mt-5">You continue doing what</h6>
-                              <p class="sm-mb-5 d-block">The first thing to remember about success is that. </p> 
+                              <p class="sm-mb-5 d-block">The first thing to remember about success is that. </p>
                               <span class="mb-0">by - <b class="text-warning">Cosntro</b> </span>
                            </div>
                            <div class="col-md-2 col-sm-6 col-6 sm-mt-20">
@@ -708,7 +708,7 @@ wrapper -->
                            </div>
                           </div>
                       </div>
-                    </div> 
+                    </div>
                 </div>
              </div>
           </div>
@@ -724,7 +724,7 @@ wrapper -->
                   <div class="media">
                    <div class="position-relative">
                     <img class="img-fluid mr-15 avatar-small" src="images/item/01.png" alt="">
-                   </div> 
+                   </div>
                     <div class="media-body">
                        <h6 class="mt-0 mb-0">Car dealer <span class="float-right text-danger"> 8,561</span>  </h6>
                        <p>Automotive WordPress Theme </p>
@@ -736,7 +736,7 @@ wrapper -->
                   <div class="media">
                    <div class="position-relative clearfix">
                     <img class="img-fluid mr-15 avatar-small" src="images/item/02.png" alt="">
-                   </div> 
+                   </div>
                     <div class="media-body">
                        <h6 class="mt-0 mb-0">Webster <span class="float-right text-warning"> 6,213</span>  </h6>
                        <p>Multi-purpose HTML5 Template </p>
@@ -748,7 +748,7 @@ wrapper -->
                   <div class="media">
                    <div class="position-relative">
                       <img class="img-fluid mr-15 avatar-small" src="images/item/03.png" alt="">
-                   </div> 
+                   </div>
                     <div class="media-body">
                        <h6 class="mt-0 mb-0">The corps  <span class="float-right text-success"> 2,926</span>  </h6>
                        <p> Multi-Purpose WordPress Theme </p>
@@ -760,7 +760,7 @@ wrapper -->
                   <div class="media">
                    <div class="position-relative clearfix">
                     <img class="img-fluid mr-15 avatar-small" src="images/item/04.png" alt="">
-                   </div> 
+                   </div>
                     <div class="media-body">
                        <h6 class="mt-0 mb-0">Sam martin <span class="float-right text-warning">6,213 </span></h6>
                        <p>Personal vCard Resume WordPress Theme </p>
@@ -790,10 +790,10 @@ wrapper -->
                     <div class="col-6">
                       <h6 class="text-info">Outcome</h6>
                       <p class="text-info">-255</p>
-                    </div>  
+                    </div>
                   </div>
                  <div id="morris-line" style="height: 320px;"></div>
-               </div> 
+               </div>
              </div>
          </div>
          <div class="col-xl-4 mb-30">
@@ -844,8 +844,8 @@ wrapper -->
              </div>
           </div>
         </div>
-     </div>       
- 
+     </div>
+
     <div class="calendar-main mb-30">
     <div class="row">
       <div class="col-lg-3">
@@ -931,7 +931,7 @@ wrapper -->
  </div>
 <!--=================================
  wrapper -->
-      
+
 <!--=================================
  footer -->
 
@@ -999,9 +999,9 @@ wrapper -->
 
 <!-- lobilist -->
 <script src="js/lobilist.js"></script>
- 
+
 <!-- custom -->
 <script src="js/custom.js"></script>
-  
+
 </body>
 </html>
