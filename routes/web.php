@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('login',[\App\Http\Controllers\AdminController::class,'login'])->name('login');
+Route::post('login_post',[\App\Http\Controllers\AdminController::class,'login_post'])->name('login_post');

@@ -44,15 +44,16 @@
        <div class="col-lg-4 col-md-6 bg-white">
         <div class="login-fancy pb-40 clearfix">
         <h3 class="mb-30">Panel Giriş</h3>
-            <form method="post">
+            <form id="logform" method="post">
          <div class="section-field mb-20">
              <label class="mb-10" for="name">KullanıcıAdi</label>
-               <input id="name" class="web form-control" type="text"  name="user_name">
+               <input id="name" class="web form-control" type="text"  name="username">
             </div>
             <div class="section-field mb-20">
              <label class="mb-10" for="Password">Şifre </label>
-               <input id="Password" class="Password form-control" type="password"  name="Password">
+               <input id="Password" class="Password form-control" type="password"  name="password">
             </div>
+                @csrf
 
               <button name="loginbuton" class="button" type="submit">Giriş Yap</button>
 
@@ -112,6 +113,11 @@
 
 <!-- custom -->
 <script src="{{asset('admin/')}}/js/custom.js"></script>
+ <script>
+     let ajax_url='{{route('login_post')}}';
+
+ </script>
+ <script src="{{asset('admin/')}}/asset/login.js"></script>
 
 </body>
 </html>
